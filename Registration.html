@@ -1,0 +1,78 @@
+<html>
+    <head>
+	<link rel="stylesheet" type="text/css" href="registration.css">
+      
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+   
+   </head>
+    <body>
+	
+	
+	
+	
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3"> </div>
+                
+                <div class="col-lg-6">
+                    <div id="ui">
+						<h1 class="text-center>Registration Form</h1>
+                        <form class="form group text-center" name="myForm"  onsubmit="return validateForm()" method="post">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label>First Name = </label>
+									
+                                    <input type="text" name="fname" class="form-control" placeholder="Enter your first name">
+									
+									
+									
+                                </div>
+                                <div class="col-lg-6">
+                                    <label>Last Name = </label>
+                                    <input type="text" name="lname" class="form-control" placeholder="Enter your last name">
+                                </div>
+                            </div>
+							<br>
+                            <label>Email</label>
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label>Password = </label>
+                                    <input type="password" name="pss" class="form-control" placeholder="Enter the password">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label>Re Type Password= </label>
+                                    <input type="password" name="rpss" class="form-control" placeholder="Re Enter the password">
+                                </div>
+                            </div>
+							<br>
+                            <select class="form-control">
+                                <option >Choose Gender..</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+							<br>
+
+                            <input type="submit" name="submit" value="submit" class="btn btn-primary btn-block btn-lg">
+                            
+							
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+			<a href="index.html">Visit the Home Page HERE!!!</a>
+        </div>
+		
+		
+    </body>
+</html>

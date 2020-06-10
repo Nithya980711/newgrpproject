@@ -1,0 +1,27 @@
+body{
+	
+    background-image: url(pic3.jpg);
+    background-size: cover;
+    background-position: center center ;
+	background-attachment : fixed;
+    
+	
+}
+#ui{
+    background-color: #000000;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    opacity: 1;
+
+}
+.ui label{
+    color: #FFF;
+
+}
+.form a{
+	color: #000000 !important;
+    font-weight: 900;
+}
+
+
